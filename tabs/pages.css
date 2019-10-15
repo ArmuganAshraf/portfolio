@@ -1,0 +1,27 @@
+.menu{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1% 10% 1% 68%;
+    display: flex;
+  }
+  
+  a{
+    color:rgb(43, 94, 141);
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+    padding: 2px;
+  }
+  
+  .menu__link1{
+    margin-right: 30px;
+    margin-left: 0%;
+  }
+
+span{
+ margin-right:5px;
+ color:rgb(43, 94, 141); 
+}

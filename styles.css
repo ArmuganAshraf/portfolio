@@ -1,0 +1,110 @@
+.body{
+  width: 100%;
+}
+.hero{
+  position: relative;
+  text-align: center;
+}
+
+.hero img{
+  width: 450px;
+  margin: 8%;
+}
+.hero__slogan{
+  position: absolute;
+  bottom: 320px;
+  left: 90px;
+  width: 300px;
+  color: white;
+  font-size:18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  object-fit: contain;
+}
+.details{
+  display: flex;
+}
+.article{
+  margin-left:5%;
+  margin-top:1.5%;
+  width: 700px;
+}
+.menu{
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 1% 10% 1% 58%;
+  display: flex;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  padding: 2px;
+}
+
+.menu__link1{
+  margin-right: 30px;
+  margin-left: 0%;
+}
+
+.intro{
+  display: flex;
+  font-family: Helvetica;
+  margin: 3% 15% 3% 25%;
+}
+.intro__line{
+  background-color: #7fffd4;
+  width:30%;
+  border-radius: 10px;
+  padding:1% 4%;
+  color:rgb(83, 83, 83);
+  font-size: 18px;
+  font-weight: 700;
+}
+.intro img{
+  border-radius: 100%;
+  border: 7px solid rgb(189, 213, 235);
+  background-color: rgb(43, 94, 141);
+  padding: 7px;
+  margin-left: 5%;
+}
+
+.footer{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgb(189, 213, 235);
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.footer__logo{
+  margin:40px 8px 60px 8px;
+}
+.footer__logo__socialmedia{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__header{
+  margin-bottom:25%;
+}
+
+.footer__copyright{
+  margin: 3% 0;
+}
+.logo{
+  margin:30%;
+}
+
+.bio{
+  font-family: Helvetica;
+}
